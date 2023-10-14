@@ -5,90 +5,63 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>آنلاین شاپ</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="styles/shared/header.css">
   </head>
   <body>
-    <div class="container header-container mt-4">
-      <div class="row row-gap-2 align-items-center justify-content-center">
-        <div class="col-3 order-1 col-md-2 order-md-1">
-          <a class="header-cart py-3 justify-content-center" href="#">
-            <div class="p left-frame-text">
-              <span class="align-middle">سبد خرید</span>
-              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bag" viewBox="0 0 16 16">
-                <path d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V5z"/>
-              </svg>
-            </div>
-          </a>
-        </div>        
-        <div class="col-3 order-1 col-md-2 order-md-1">
-          <a class="header-login py-3 justify-content-center" href="#">
-            <div class="p left-frame-text">
-              <span class="align-middle">ورود/ثبت نام</span>
-              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box-arrow-in-right" viewBox="0 0 16 16">
-                <path fill-rule="evenodd" d="M6 3.5a.5.5 0 0 1 .5-.5h8a.5.5 0 0 1 .5.5v9a.5.5 0 0 1-.5.5h-8a.5.5 0 0 1-.5-.5v-2a.5.5 0 0 0-1 0v2A1.5 1.5 0 0 0 6.5 14h8a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 14.5 2h-8A1.5 1.5 0 0 0 5 3.5v2a.5.5 0 0 0 1 0v-2z"/>
-                <path fill-rule="evenodd" d="M11.854 8.354a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H1.5a.5.5 0 0 0 0 1h8.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3z"/>
-              </svg>
-            </div>
-          </a>
-        </div>
-        <div class="col-10 order-2 col-md-4 order-md-2 px-0">
-          <div class="container-fluid">
-            <form class="d-flex justify-content-center" role="search">
-              <input dir="rtl" class="form-control me-2 header-searchbar" type="search" placeholder="جستجو..." aria-label="Search">
-            </form>
-          </div>
-        </div>
-        <div class="col-4 order-1 col-md-3 order-md-3">
-          <div dir="rtl" class="p right-frame-text">فروشگاه قهوه بهنام کافه</div>
-        </div>
-        <div class="col-2 order-1 col-md-1 order-md-3 justify-content-center">
-          <img src="images/Rectangle40.png" class="img-fluid">
-        </div>
-      </div>
-      <div class="row justify-content-center mt-2 px-5">
-        <div class="col-8 rounded-start-2 nnavbar">1</div>
-        <div class="col-1 -center nnavbar">
-          <div class="p">
-            <span class="align-middle">ارتباط با ما</span>
-            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-telephone" viewBox="0 0 16 16">
-              <path d="M3.654 1.328a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.568 17.568 0 0 0 4.168 6.608 17.569 17.569 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.678.678 0 0 0-.58-.122l-2.19.547a1.745 1.745 0 0 1-1.657-.459L5.482 8.062a1.745 1.745 0 0 1-.46-1.657l.548-2.19a.678.678 0 0 0-.122-.58L3.654 1.328zM1.884.511a1.745 1.745 0 0 1 2.612.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z"/>
-            </svg>
-          </div>
-        </div>
-        <div class="col-1 -center nnavbar">
-          <div class="p">
-            <span class="align-middle">مقاله‌ها</span>
-            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-file-earmark-text" viewBox="0 0 16 16">
-              <path d="M5.5 7a.5.5 0 0 0 0 1h5a.5.5 0 0 0 0-1h-5zM5 9.5a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5zm0 2a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 0 1h-2a.5.5 0 0 1-.5-.5z"/>
-              <path d="M9.5 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V4.5L9.5 0zm0 1v2A1.5 1.5 0 0 0 11 4.5h2V14a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h5.5z"/>
-            </svg>
-          </div>
-        </div>
-        <div class="col-1  nnavbar">
-          <a class="icon-link icon-link-hover" href="#">
-            <div class="p">
-              <span class="align-middle">دسته‌بندی</span>
-              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-grid" viewBox="0 0 16 16">
-                <path d="M1 2.5A1.5 1.5 0 0 1 2.5 1h3A1.5 1.5 0 0 1 7 2.5v3A1.5 1.5 0 0 1 5.5 7h-3A1.5 1.5 0 0 1 1 5.5v-3zM2.5 2a.5.5 0 0 0-.5.5v3a.5.5 0 0 0 .5.5h3a.5.5 0 0 0 .5-.5v-3a.5.5 0 0 0-.5-.5h-3zm6.5.5A1.5 1.5 0 0 1 10.5 1h3A1.5 1.5 0 0 1 15 2.5v3A1.5 1.5 0 0 1 13.5 7h-3A1.5 1.5 0 0 1 9 5.5v-3zm1.5-.5a.5.5 0 0 0-.5.5v3a.5.5 0 0 0 .5.5h3a.5.5 0 0 0 .5-.5v-3a.5.5 0 0 0-.5-.5h-3zM1 10.5A1.5 1.5 0 0 1 2.5 9h3A1.5 1.5 0 0 1 7 10.5v3A1.5 1.5 0 0 1 5.5 15h-3A1.5 1.5 0 0 1 1 13.5v-3zm1.5-.5a.5.5 0 0 0-.5.5v3a.5.5 0 0 0 .5.5h3a.5.5 0 0 0 .5-.5v-3a.5.5 0 0 0-.5-.5h-3zm6.5.5A1.5 1.5 0 0 1 10.5 9h3a1.5 1.5 0 0 1 1.5 1.5v3a1.5 1.5 0 0 1-1.5 1.5h-3A1.5 1.5 0 0 1 9 13.5v-3zm1.5-.5a.5.5 0 0 0-.5.5v3a.5.5 0 0 0 .5.5h3a.5.5 0 0 0 .5-.5v-3a.5.5 0 0 0-.5-.5h-3z"/>
-              </svg>
-            </div>
-          </a>
-        </div>
-        <div class="col-1  rounded-end-2 nnavbar">
-          <a class="icon-link icon-link-hover" href="#">
-            <div class="p">
-              <span class="align-middle">صفحه اصلی</span>
-              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-house-door" viewBox="0 0 16 16">
-                <path d="M8.354 1.146a.5.5 0 0 0-.708 0l-6 6A.5.5 0 0 0 1.5 7.5v7a.5.5 0 0 0 .5.5h4.5a.5.5 0 0 0 .5-.5v-4h2v4a.5.5 0 0 0 .5.5H14a.5.5 0 0 0 .5-.5v-7a.5.5 0 0 0-.146-.354L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293L8.354 1.146ZM2.5 14V7.707l5.5-5.5 5.5 5.5V14H10v-4a.5.5 0 0 0-.5-.5h-3a.5.5 0 0 0-.5.5v4H2.5Z"/>
-              </svg>
-            </div>
-          </a>
+    
+    <nav dir="rtl" class="navbar navbar-expand-lg ">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">
+          <img src="./images/header-logo.svg" alt="Logo" width="36" height="36" class="d-inline-block align-text-top">
+          <span class="navbar-brand mb-0 h1">فروشگاه قهوه بهنام کافه</span>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-1 mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">
+                <i class="bi bi-house-door"></i> صفحه اصلی
+              </a>
+            </li>            
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">
+                <i class="bi bi-grid"></i> دسته‌بندی کالاها</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">
+                <i class="bi bi-file-earmark-text"></i> مقاله‌ها</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">
+                 <i class="bi bi-telephone"></i> ارتباط با ما</a>
+            </li>
+            
+          </ul>
+          <form class="d-flex me-auto" role="search">
+            <input class="form-control navbar-search-box" type="search" placeholder="جستجو..." aria-label="Search">
+            <button class="btn navbar-search-box me-2" type="submit">
+              <i class="bi bi-search"></i>
+            </button>
+          </form>
+          <ul class="navbar-nav ms-1 mb-2 mb-lg-0">
+            <li class="nav-item header-login ms-2">
+              <a class="nav-link active" aria-current="page" href="#">
+                <i class="bi bi-box-arrow-in-right"></i> ورود یا ثبت نام
+              </a>
+            </li>            
+            <li class="nav-item header-cart">
+              <a class="nav-link active" aria-current="page" href="#">
+                <i class="bi bi-bag"></i> سبد خرید
+                <i class="bi bi-0-circle-fill"></i>
+              </a>
+            </li>  
+          </ul>
         </div>
       </div>
-    </div>
-    <div class="mt-3">
-      <img src="./images/topbanner.jpg" class="img-fluid" alt="Behnam Cafe">
-    </div>
+    </nav>
+
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script type="module" src="/main.js"></script>
   </body>
 </html>

@@ -1,47 +1,56 @@
 
 
 .header-cart {
-    display: flex;
-
-    
-    border-radius: 8px;
+    border-radius: 6px;
     background: #FFD56A;
     text-decoration: none;
     color: black;
 }
 
 .header-login {
-    display: flex;
-    
-    border-radius: 8px;
+
+    border-radius: 6px;
+    background: white;
     border: 1px solid #000;
     text-decoration: none;
     color: black;
 }
-
-.left-frame-text {
-    font-size: 12px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
-    margin: 0;
-}
-
-.header-searchbar {
-    height: 3rem;
-    background-color: #FFFCF3; 
-    border: 1px solid #BC9020;
-}
-
-.right-frame-text {
-    font-size: 15px;
-}
-
-.nnavbar {
-    display: flex;
-    flex-wrap: wrap;
+.navbar {
     background: #FEF5DF;
-    font-size: 0.75rem;
-    padding-inline: 0;
-    padding-block: 0.75rem;
 }
+
+li.nav-item {
+    font-size: 13px;
+}
+
+.bi-0-circle-fill {
+    color: #6DB74B;
+}
+
+.navbar-search-box {
+    border: 1px solid #BC9020;
+    background-color: #FFFCF3;
+    
+
+}
+
+.navbar-search-box::placeholder {
+    color: #BC9020;
+    font-size: 12px;
+}
+
+.navbar-search-box:focus {
+    border: 1px solid #BC9020;
+    box-shadow: none;
+  }
+
+
+.btn.navbar-search-box:hover {
+    background-color: white;
+    color: black;
+    border: 1px solid #BC9020;
+  }
+  
+  
+  
+
