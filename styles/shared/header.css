@@ -3,16 +3,13 @@
 .header-cart {
     border-radius: 6px;
     background: #FFD56A;
-    text-decoration: none;
-    color: black;
+
 }
 
 .header-login {
-
     border-radius: 6px;
     background: white;
     border: 1px solid #000;
-    text-decoration: none;
     color: black;
 }
 .navbar {
@@ -30,8 +27,6 @@ li.nav-item {
 .navbar-search-box {
     border: 1px solid #BC9020;
     background-color: #FFFCF3;
-    
-
 }
 
 .navbar-search-box::placeholder {
@@ -51,6 +46,13 @@ li.nav-item {
     border: 1px solid #BC9020;
   }
   
+  /* Change the background color of the buttons when the navbar is collapsed */
+@media (max-width: 992px) {
+    .navbar-collapse .header-login,
+    .navbar-collapse .header-cart {
+        width: 120px;
+  }
+} 
   
   
 
