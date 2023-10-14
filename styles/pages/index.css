@@ -1,0 +1,17 @@
+/* Style the carousel indicators as circles */
+.carousel .carousel-indicators button {
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+  }
+  
+  /* Style the normal (inactive) indicators */
+  .carousel .carousel-indicators button:not(.active) {
+    background-color: #C6A66D; /* Set the background color for normal indicators */
+  }
+  
+  /* Style the active indicator */
+  .carousel .carousel-indicators .active {
+    background-color: whitesmoke ; /* Set the background color for the active indicator */
+  }
+  
