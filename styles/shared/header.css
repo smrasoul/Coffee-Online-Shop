@@ -34,7 +34,7 @@ li.nav-item {
     border: 1px solid #BC9020;
     box-shadow: none;
   }
-.btn.navbar-search-box:hover {
+.btn.navbar-search-button:hover {
     background-color: white;
     color: black;
     border: 1px solid #BC9020;
