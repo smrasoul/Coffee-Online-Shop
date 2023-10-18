@@ -102,21 +102,22 @@
         </div>
       </div>
 
-    <div class="container-xxl d-flex justify-content-center">
+    <div class="container-xxl">
       <div class="off-banner mb-2">
         <div dir="rtl" class="row mx-0">
-          <div class="col-lg-8">
-            <div class="off-text-box">
+          <div class="col-lg-8 col-md-6">
+            <div class="off-text-box-spacing off-text-box-style">
               <span class="p">تخفیف‌های ویژه</span>
-              <img src="./images/off-logo.svg" alt="Logo" width="82" height="84" class="d-inline-block align-text-center">
+              <img src="./images/off-logo.svg" alt="Logo" class=" off-logo d-inline-block align-text-center">
             </div>
           </div>
-          <div class="col-lg-4 d-flex align-items-center justify-content-center">
+          <div class="col-lg-4 col-md-6 d-flex align-items-center justify-content-center">
             <p id="demo"></p>
           </div>
         </div>
-        <div class="row row-cols-2 row-cols-lg-4 off-cards-grid">
-          <div dir="rtl" class="col pe-2 off-card-more position-relative">
+        <div class="row off-cards-grid">
+          <div dir="rtl" class="col-lg-3 col-md-4 col-sm-6 col-6 pe-2 off-card-more
+           position-relative">
             <a href="#">
               <div class="h3 more-card-large justify-content-center align-items-center 
               position-absolute z-3 d-flex flex-column text-secondary">
@@ -127,9 +128,8 @@
             </a>
               <div class="more-card-medium position-absolute z-2"></div>
               <div class="more-card-small position-absolute z-1"></div>
-            
           </div>
-          <div class="col ps-0">
+          <div class="col-lg-3 col-md-4 col-sm-6 col-6 ps-0 mug-mobile">
             <div class="card h-100 off-card">
               <img src="./images/mug.png" class="card-img-top" alt="...">
               <div class="card-body">
@@ -145,7 +145,17 @@
               </div>
             </div>
           </div>
-          <div class="col d-none d-lg-block">
+          <div class="off-card-more-mobile px-0 col-12">
+            <a href="#" class="link-underline link-underline-opacity-0">
+              <div class="h3 more-card-mobile justify-content-center align-items-center 
+               d-flex text-secondary">
+                <i class="bi bi-eye-fill"></i>
+                <span class="h3">بیشتر</span>
+                <span class="h3">مشاهده</span>
+              </div>
+            </a>
+          </div>
+          <div class="col-lg-3 col-md-4 d-none d-md-block">
             <div class="card h-100 off-card">
               <img src="./images/chocolate-box.png" class="card-img-top" alt="...">
               <div class="card-body">
@@ -161,7 +171,7 @@
               </div>
             </div>
           </div>
-          <div class="col d-none d-lg-block">
+          <div class="col-lg-3 d-none d-lg-block">
             <div class="card h-100 off-card">
               <img src="./images/Rectangle-12.png" class="card-img-top" alt="...">
               <div class="card-body">
@@ -179,9 +189,8 @@
           </div>
         </div>
       </div>
-
-
     </div>
+
     <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script type="module" src="/main.js"></script>
   </body>
