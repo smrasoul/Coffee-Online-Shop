@@ -23,6 +23,67 @@
   margin-inline: 15%; 
 }
 
+.off-card {
+  padding-block-start: 1.3rem;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25), 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+/* Custom CSS to adjust vertical alignment */
+.card-price-label {
+vertical-align: middle;
+display: inline-block;
+margin-top: 5px; /* Adjust this value to control the vertical spacing */
+}
+
+.more-card-large {
+height: 100%;
+width: 70%;
+background: #E5E4E4;
+border-radius: 0.625rem;
+box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25), 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.more-card-medium {
+height: 90%;
+width: 80%;
+margin-block-start: 7.5%;
+background: white;
+border-radius: 0.625rem;
+box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25), 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.more-card-small {
+height: 80%;
+width: 90%;
+margin-block-start: 15%;
+background: white;
+border-radius: 0.625rem;
+box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25), 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.timer-body{
+  background-color: whitesmoke;
+  padding-block-end: 0.25rem;
+  border-radius: 0.625rem;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25), 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.timer-lines {
+  border-top: 0.4rem solid black ;
+  border-bottom: 0.4rem solid black ;
+  padding-inline: 0.5rem;
+  padding-block: 1rem;
+}
+
+.timer-value {
+  font-size: 2rem;
+  padding-inline: 1rem;
+}
+
+.timer-label {
+  font-size: 0.75rem;
+
+}
 /* ---------------------------------------------------------- */
 /* Mobile Rules */
 
@@ -37,8 +98,17 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 1rem;
+  margin-top: 4rem;
 }
+
+.timer-section-spacing {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem;
+  scale: 75%;
+}
+
 .off-text-box-style{
   color: #F5F5F5;
   font-family: Kalameh;
@@ -107,40 +177,7 @@
   height: 84px;
 }
 }
-.off-card {
-  padding-block-start: 1.3rem;
-  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25), 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-}
 
-/* Custom CSS to adjust vertical alignment */
-.card-price-label {
-vertical-align: middle;
-display: inline-block;
-margin-top: 5px; /* Adjust this value to control the vertical spacing */
-}
-
-.more-card-large {
-height: 100%;
-width: 70%;
-background: #E5E4E4;
-border-radius: 0.625rem;
-box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25), 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-}
-
-.more-card-medium {
-height: 90%;
-width: 80%;
-margin-block-start: 7.5%;
-background: white;
-border-radius: 0.625rem;
-box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25), 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-}
-
-.more-card-small {
-height: 80%;
-width: 90%;
-margin-block-start: 15%;
-background: white;
-border-radius: 0.625rem;
-box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25), 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+.timer-section-spacing {
+  margin: 2rem;
 }
