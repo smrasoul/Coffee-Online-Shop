@@ -1,0 +1,66 @@
+/* Mobile Rules */
+
+@media (max-width: 992px) {
+    .off-cards-grid {
+      margin-top: 1rem;
+      margin-bottom: 2rem;
+      margin-inline-end: 2rem;
+      margin-inline-start: 2rem;
+    }
+    .off-text-box-spacing {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 4rem;
+    }
+    
+    .timer-section-spacing {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 1rem;
+      scale: 75%;
+    }
+    
+    .off-text-box-style{
+      color: #F5F5F5;
+      font-family: Kalameh;
+      font-size: 1.75rem;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 140%; /* 3.85rem */
+    }
+    .off-logo {
+      width: 41px;
+      height: 42px;
+      margin-inline-start: 0.5rem;
+    }
+    .more-card-mobile {
+      background: #E5E4E4;
+      border-radius: 0.625rem;
+      box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25), 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+      margin-block-start: 0.3rem;
+      text-decoration: none;
+    }
+    .off-card {
+      
+      padding-block-start: 1.3rem;
+    }
+    }
+    
+    @media (min-width: 530px) {
+      .more-card-mobile{
+        display: none;
+      }
+    }
+    
+    @media (max-width: 530px) {
+      .mug-mobile {
+        padding: 0;
+        width: 200%;
+      }
+      .off-card-more {
+        display: none;
+      }
+    }
+    
