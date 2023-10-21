@@ -55,7 +55,7 @@ li.nav-item {
     border-bottom-left-radius: 0; /* Optionally remove bottom-right border radius */
   }
 .btn.navbar-search-button:hover {
-    background-color: white;
+    background-color: #FEF5DF;
     color: black;
     border: 1px solid #BC9020;
     border-right: none;
