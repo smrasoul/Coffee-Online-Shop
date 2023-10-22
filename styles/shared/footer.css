@@ -1,4 +1,37 @@
-.bi-wechat {
- scale: 500%;
+.chat-logo {
+    transform: scaleX(-1);
+    color: #886407;
 }
-  
+
+.chat-text {
+    background: #FFE6C5;
+}
+
+.chat-text-titr {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.chat-text-message {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.chat-btn {
+    color: white;
+    background: #886407;
+}
+
+.footer-top-section-gutter {
+    padding-inline: 4rem;
+}
+
+.footer-top-section-text {
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
