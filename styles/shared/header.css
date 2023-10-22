@@ -11,8 +11,23 @@
 .navbar {
     background: white;
 }
+
+.navbar-brand {
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
 li.nav-item {
     font-size: 13px;
+}
+
+.navlink {
+font-size: 1rem;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
 }
 
 .cart-value {
