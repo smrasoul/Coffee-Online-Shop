@@ -40,8 +40,8 @@ var x = setInterval(function() {
   // If the countdown is finished, write some text
   if (distance < 0) {
     clearInterval(x);
-    document.querySelector('.timer-value-hours').innerHTML = 'EXPIRED';
-    document.querySelector('.timer-value-minutes').innerHTML = '';
-    document.querySelector('.timer-value-seconds').innerHTML = '';
+    document.querySelector('.timer-value-hours').innerHTML = '۰۰';
+    document.querySelector('.timer-value-minutes').innerHTML = '۰۰';
+    document.querySelector('.timer-value-seconds').innerHTML = '۰۰';
   }
 }, 1000);
