@@ -25,6 +25,11 @@
     background: #886407;
 }
 
+.chat-btn:hover {
+    color: white;
+    background: #886407;
+}
+
 .footer-top-section-gutter {
     padding-inline: 4rem;
 }
