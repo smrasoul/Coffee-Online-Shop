@@ -4,6 +4,7 @@
 @import url(./styles/pages/index.css);
 @import url(./styles/shared/footer.css);
 @import url(./styles/pages/desktop-1.css);
+@import url(./styles/pages/desktop-2.css);
 
 body {
     font-family: 'IRANSansX', sans-serif;                                          
