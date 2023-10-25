@@ -6,6 +6,17 @@
 @import url(./styles/pages/desktop-1.css);
 @import url(./styles/pages/desktop-2.css);
 
+@font-face {
+    font-family: "IRANSansX";
+    src:
+
+      url("./fonts/IRANSansXFaNum-Regular.woff2"),
+   
+  }
+  
+
 body {
-    font-family: 'IRANSansX', sans-serif;                                          
+    font-family: 'IRANSansX', sans-serif !important;                                       
 }
+
+
