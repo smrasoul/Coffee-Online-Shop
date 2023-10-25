@@ -27,10 +27,6 @@
     color: white;
 } */
 
-.product-left {
-    background: #F0F0F0;
-}
-
 .add-cart-product {
     border: none;
 }
@@ -67,5 +63,116 @@
     font-style: normal;
     font-weight: 400;
     line-height: 29px; /* 207.143% */
+    text-transform: capitalize;
+}
+/* ------------------------------------------- */
+/* left top side settings */
+
+.product-left {
+    background: #F0F0F0;
+}
+
+.guarantee-title {
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.golden-ready-send {
+    color: #C89000;
+}
+
+.color-choice {
+    background-color: white;
+    border-color: white;
+}
+
+.choice-text{
+    color: black;
+}
+
+.color-square-silver {
+    color: #B3B3B3; 
+}
+
+.btn-check:checked + .color-choice {
+    background-color: red;
+    color: white;
+  }
+
+  .btn-check:not(:checked) + .color-choice {
+    background-color: white;
+    border-color: white;
+    color: initial; /* Reset to the default text color */
+  }
+
+/* Apply styles when the radio button is checked */
+.btn-check:checked + .color-choice .choice-text {
+    color: white;
+  }
+  
+  /* Reset styles when the radio button is not checked */
+  .btn-check:not(:checked) + .color-choice .choice-text {
+    color: initial; /* Reset to the default text color */
+  }
+  
+.silver-line {
+    border: 1px solid #B9B9B9;
+}
+
+.vote-section {
+    color: #7C6950;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.vote-star{
+    cursor: pointer;
+}
+
+.silver-text {
+    color: #58626C;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+/* --------------------------------- */
+
+.grid-on-img {
+    font-size: 25px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-decoration: none;
+    color: #CBCBCB;
+}
+
+.spec-title-main {
+    color: #000;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 140%; /* 28px */
+    text-transform: capitalize;
+}
+
+.spec-title {
+    color: #B3B3B3;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%; /* 28px */
+    text-transform: capitalize;
+}
+
+.spec-desc {
+    color: #000;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%; /* 28px */
     text-transform: capitalize;
 }
