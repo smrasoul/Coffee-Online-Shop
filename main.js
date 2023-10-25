@@ -45,3 +45,4 @@ var x = setInterval(function() {
     document.querySelector('.timer-value-seconds').innerHTML = '۰۰';
   }
 }, 1000);
+
