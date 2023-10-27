@@ -9,11 +9,13 @@
 @font-face {
     font-family: "IRANSansX";
     src:
-
       url("./fonts/IRANSansXFaNum-Regular.woff2"),
-   
   }
   
+@font-face {
+  font-family: "Kalameh";
+  src: url("./fonts/Kalameh-Regular.woff2");
+}
 
 body {
     font-family: 'IRANSansX', sans-serif !important;                                       
