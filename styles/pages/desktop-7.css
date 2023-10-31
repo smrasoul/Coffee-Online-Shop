@@ -1,0 +1,54 @@
+.empty-cart {
+    border: 4px dashed #000;
+    background: rgba(217, 217, 217, 0.00);
+    margin-block-start: 7rem;
+}
+
+.empty-cart.text {
+    color: #000;
+    text-align: center;
+    font-family: IRANSansX;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    }
+
+.main-page-link {
+    text-decoration: none;
+    color: #E8C79C;
+}
+
+.empty-cart-logo {
+    padding: 5rem;
+}
+
+.empty-cart-logo-part {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.empty-cart-logo-part-2 {
+    top: 59%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.silver-rects {
+    background: #CBCBCB;
+    padding-block: 6rem;
+}
+/* -------------------------------------------------- */
+/* PC Rules */
+
+@media (min-width: 992px) {
+
+    .empty-cart {
+        margin-inline: 15%;
+    }
+
+
+
+
+}
