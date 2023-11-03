@@ -73,3 +73,8 @@
     text-transform: capitalize;
     border-left: 1px solid #A9A9A9;
 }
+
+.cart-summary {
+    background-color: #FCF4E9;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.10);
+}
