@@ -39,6 +39,7 @@
 .cart-card {
     background-color: #FCF4E9;
     border-color: #FCF4E9;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.10);
 }
 
 .cart-card-title {
@@ -77,4 +78,31 @@
 .cart-summary {
     background-color: #FCF4E9;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.10);
+}
+
+.cart-summary-text {
+    font-size: 0.75rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.green-line {
+    border-bottom: 3px dashed #80BD31;
+}
+
+.cart-summary-red-text {
+    color: red;
+}
+
+.cart-summary-small-text {
+    font-size: 0.5rem;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+.delivery-time-btn {
+    background-color: #E8C79C;
+    border: none;
 }
