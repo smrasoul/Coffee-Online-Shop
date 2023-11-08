@@ -36,6 +36,7 @@
 
 .edit-user-account-information {
     color: #CBB270;
+    text-decoration: none;
 }
 
 .user-account-information-title {
@@ -55,3 +56,49 @@
     line-height: 1.4875rem;
     text-transform: uppercase;
 }
+
+.main-profile-selection {
+    border: 1px solid #F0F4F7;
+    background: #F0F4F7;
+}
+
+/* Add custom styles for active radio button */
+.btn-group-mp input[type="radio"]:checked + label.btn-mp {
+    border-radius: 1rem;
+    background: #FFF;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.10);
+    color: black; /* Change text color for visibility */
+  }
+  
+  /* Revert the styles for other radio buttons */
+  .btn-group-mp input[type="radio"] + label.btn-mp {
+    background-color: initial; /* Change back to the original background color */
+    color: #000; /* Revert to the original text color */
+  }
+
+  .btn-mp {
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+  }
+
+  .latest-orders-text{
+    font-size: 0.75rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.275rem;
+    text-transform: uppercase;
+  }
+
+  .latest-orders-title {
+    color: gray;
+  }
+
+  .table-eye {
+    border-radius: 8px;
+    background: #FFF;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.10);
+    font-size: 1rem;
+    padding-inline: 0.25rem;
+  }
