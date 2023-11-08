@@ -1,0 +1,48 @@
+.delivery-address, .delivery-time {
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    border-radius: 1rem;
+    background: #FCF4E9;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.10);
+}
+
+.address-change-delete, .delivery-address-name{
+    color: #886407;
+    font-size: 0.75rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-decoration: none;
+}
+
+.one-line {
+    white-space: nowrap;
+  }
+
+.product-amount-bg {
+    border-radius: 0.25rem;
+    background: #C6A66D;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.10);
+}
+
+.bi-truck {
+    font-size: 1.5rem;
+}
+
+.delivery-time-image {
+    border-radius: 0.25rem;
+    border: 1px solid #886407;
+    position: relative;
+}
+
+.delivery-time-image-amount{
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    transform: translate(-60%, -60%);
+    background-color: #C6A66D;
+    color: white;
+    border-radius: 50%; /* Makes it a perfect circle */
+}
