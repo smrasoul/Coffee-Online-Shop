@@ -1,0 +1,57 @@
+.profile-nav-text, .user-account-information {
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.4rem;
+    text-transform: capitalize;
+    border-radius: 2rem;
+    background: #FFF;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.10);
+}
+
+.profile-icon {
+    font-size: 1.5rem;
+}
+
+.main-profile {
+    color: #BC9020;
+    border-right: 3px solid #BC9020;
+}
+
+.profile-nav-link {
+    color: black;
+    text-decoration: none;
+}
+
+.profile-nav-link-current {
+    color: #BC9020;
+    text-decoration: none;
+}
+
+.log-out {
+    color: #835E5E;
+    text-decoration: none;
+    font-size: 1.25rem;
+}
+
+.edit-user-account-information {
+    color: #CBB270;
+}
+
+.user-account-information-title {
+    color: #828282;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.4875rem;
+    text-transform: uppercase;
+}
+
+.user-account-information-input {
+    color: black;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.4875rem;
+    text-transform: uppercase;
+}
