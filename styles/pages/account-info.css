@@ -1,0 +1,20 @@
+.account-info-title {
+    color: #828282;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 23.8px;
+    text-transform: uppercase;  
+}
+
+.account-info-input {
+    color: #000;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.edit-user-account-information:hover {
+    cursor: pointer;
+}

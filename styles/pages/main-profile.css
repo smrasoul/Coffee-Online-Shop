@@ -14,8 +14,7 @@
 }
 
 .main-profile {
-    color: #BC9020;
-    border-right: 3px solid #BC9020;
+    
 }
 
 .profile-nav-link {
@@ -26,6 +25,8 @@
 .profile-nav-link-current {
     color: #BC9020;
     text-decoration: none;
+    color: #BC9020;
+    border-right: 3px solid #BC9020;
 }
 
 .log-out {
