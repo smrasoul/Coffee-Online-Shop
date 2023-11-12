@@ -1,0 +1,15 @@
+.orders-selection {
+    border: 1px solid #F0F4F7;
+    background: #F0F4F7;
+}
+
+.unsuccessful-payment-btn, .unsuccessful-payment-btn:hover {
+    color: #7C6950;
+    border-radius: 8px;
+    border: 1px solid #7C6950;
+  }
+
+  .orders-selection {
+    border: 1px solid #F0F4F7;
+    background: #F0F4F7;
+}
