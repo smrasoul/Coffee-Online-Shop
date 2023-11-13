@@ -1,0 +1,15 @@
+.addresses-title-text {
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.4rem;
+    text-transform: capitalize;
+}
+
+.addresses-text {
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.4875rem;
+    text-transform: uppercase;
+}
