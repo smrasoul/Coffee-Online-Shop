@@ -1,20 +1,179 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <div class="user-account-information me-lg-3 px-lg-3 py-lg-2">
-        <div class="d-flex justify-content-between border-bottom border-secondary-emphasis pb-2">
-            <div>اطلاعات حساب کاربری</div>
-            <div class="edit-user-account-information d-flex align-items-center">
-                <span><i class="bi bi-person-fill-gear profile-icon"></i></span>
-                <span>ویرایش اطلاعات حساب کاربری</span>
-            </div>
-        </div>
+<div class="d-flex align-items-center orders-selection rounded-3 mt-3 mx-lg-4 px-lg-3 py-lg-2">
+    <div dir="rtl" class="btn-group btn-group-mp" role="group"
+        aria-label="Basic radio toggle button group">
+
+        <input type="radio" class="btn-check unsuccessful-payment-btn" name="btnradio" id="btnradio2" autocomplete="off" checked>
+        <label class="btn btn-mp mx-lg-3 sort-text" for="btnradio2">پرداخت‌های ناموفق</label>
+
+        <input type="radio" class="btn-check processing-orders-btn" name="btnradio" id="btnradio1" autocomplete="off">
+        <label class="btn btn-mp mx-lg-3 sort-text" for="btnradio1">درحال پردازش</label>
+
+        <input type="radio" class="btn-check shipped-orders-btn" name="btnradio" id="btnradio3" autocomplete="off">
+        <label class="btn btn-mp mx-lg-3 sort-text" for="btnradio3">ارسال شده‌ها</label>
+
+        <input type="radio" class="btn-check canceled-orders-btn" name="btnradio" id="btnradio4" autocomplete="off">
+        <label class="btn btn-mp mx-lg-3 sort-text" for="btnradio4">لغو شده‌ها</label>
     </div>
-    <script src="./test.js"></script>
-</body>
-</html>
+</div>
+<div class="orders-selection-div">
+    <div class="table-responsive-lg mt-3 mx-lg-4 px-lg-3 py-lg-2">
+        <table class="table latest-orders-text">
+            <thead>
+                <tr>
+                    <th scope="col">
+                        <div class="latest-orders-title">شماره سفارش</div>
+                    </th>
+                    <th scope="col">
+                        <div class="latest-orders-title">محصول</div>
+                    </th>
+                    <th scope="col">
+                        <div class="latest-orders-title">تاریخ</div>
+                    </th>
+                    <th scope="col">
+                        <div class="latest-orders-title">قیمت کل</div>
+                    </th>
+                    <th scope="col">
+                        <div class="latest-orders-title">وضعیت</div>
+                    </th>
+                    <th>
+
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th scope="row">۲۸۷۱۷۸</th>
+                    <td>
+                        <img src="./images/Rectangle-28.png" width="30px">
+                        <img src="./images/Rectangle-28.png" width="30px">
+                        <img src="./images/Rectangle-28.png" width="30px">
+                        <img src="./images/Rectangle-28.png" width="30px">
+                        <img src="./images/Rectangle-28.png" width="30px">
+                    </td>
+                    <td>۱۴۰۰/۰۶/۰۴ - ۰۱:۱۵:۴۸</td>
+                    <td>
+                        <span>۸۴۸٬۹۹۰ </span>
+                        <span>تومان</span>
+                    </td>
+                    <td>
+                        <div class="grass-green-btn text-light text-center rounded-3 py-1">پرداخت و ادامه سفارش 
+                        </div>
+                    </td>
+                    <td>
+                        <i class="bi bi-eye-fill table-eye"></i>
+                    </td>
+                </tr>
+                <tr>
+                    <th scope="row">۲۸۷۱۷۸</th>
+                    <td>
+                        <img src="./images/Rectangle-28.png" width="30px">
+                        <img src="./images/Rectangle-28.png" width="30px">
+                        <img src="./images/Rectangle-28.png" width="30px">
+                        <img src="./images/Rectangle-28.png" width="30px">
+                        <img src="./images/Rectangle-28.png" width="30px">
+                    </td>
+                    <td>۱۴۰۰/۰۶/۰۴ - ۰۱:۱۵:۴۸</td>
+                    <td>
+                        <span>۸۴۸٬۹۹۰ </span>
+                        <span>تومان</span>
+                    </td>
+                    <td>
+                        <div class="grass-green-btn text-light text-center rounded-3 py-1">پرداخت و ادامه سفارش 
+                        </div>
+                    </td>
+                    <td>
+                        <i class="bi bi-eye-fill table-eye"></i>
+                    </td>
+                </tr>
+                <tr>
+                    <th scope="row">۲۸۷۱۷۸</th>
+                    <td>
+                        <img src="./images/Rectangle-28.png" width="30px">
+                        <img src="./images/Rectangle-28.png" width="30px">
+                        <img src="./images/Rectangle-28.png" width="30px">
+                        <img src="./images/Rectangle-28.png" width="30px">
+                        <img src="./images/Rectangle-28.png" width="30px">
+                    </td>
+                    <td>۱۴۰۰/۰۶/۰۴ - ۰۱:۱۵:۴۸</td>
+                    <td>
+                        <span>۸۴۸٬۹۹۰ </span>
+                        <span>تومان</span>
+                    </td>
+                    <td>
+                        <div class="grass-green-btn text-light text-center rounded-3 py-1"> پرداخت و ادامه سفارش
+                        </div>
+                    </td>
+                    <td>
+                        <i class="bi bi-eye-fill table-eye"></i>
+                    </td>
+                </tr>
+                <tr>
+                    <th scope="row">۲۸۷۱۷۸</th>
+                    <td>
+                        <img src="./images/Rectangle-28.png" width="30px">
+                        <img src="./images/Rectangle-28.png" width="30px">
+                        <img src="./images/Rectangle-28.png" width="30px">
+                        <img src="./images/Rectangle-28.png" width="30px">
+                        <img src="./images/Rectangle-28.png" width="30px">
+                    </td>
+                    <td>۱۴۰۰/۰۶/۰۴ - ۰۱:۱۵:۴۸</td>
+                    <td>
+                        <span>۸۴۸٬۹۹۰ </span>
+                        <span>تومان</span>
+                    </td>
+                    <td>
+                        <div class="grass-green-btn text-light text-center rounded-3 py-1">پرداخت و ادامه سفارش 
+                        </div>
+                    </td>
+                    <td>
+                        <i class="bi bi-eye-fill table-eye"></i>
+                    </td>
+                </tr>
+                <tr>
+                    <th scope="row">۲۸۷۱۷۸</th>
+                    <td>
+                        <img src="./images/Rectangle-28.png" width="30px">
+                        <img src="./images/Rectangle-28.png" width="30px">
+                        <img src="./images/Rectangle-28.png" width="30px">
+                        <img src="./images/Rectangle-28.png" width="30px">
+                        <img src="./images/Rectangle-28.png" width="30px">
+                    </td>
+                    <td>۱۴۰۰/۰۶/۰۴ - ۰۱:۱۵:۴۸</td>
+                    <td>
+                        <span>۸۴۸٬۹۹۰ </span>
+                        <span>تومان</span>
+                    </td>
+                    <td>
+                        <div class="grass-green-btn text-light text-center rounded-3 py-1">پرداخت و ادامه سفارش 
+                        </div>
+                    </td>
+                    <td>
+                        <i class="bi bi-eye-fill table-eye"></i>
+                    </td>
+                </tr>
+                <tr>
+                    <th scope="row">۲۸۷۱۷۸</th>
+                    <td>
+                        <img src="./images/Rectangle-28.png" width="30px">
+                        <img src="./images/Rectangle-28.png" width="30px">
+                        <img src="./images/Rectangle-28.png" width="30px">
+                        <img src="./images/Rectangle-28.png" width="30px">
+                        <img src="./images/Rectangle-28.png" width="30px">
+                    </td>
+                    <td>۱۴۰۰/۰۶/۰۴ - ۰۱:۱۵:۴۸</td>
+                    <td>
+                        <span>۸۴۸٬۹۹۰ </span>
+                        <span>تومان</span>
+                    </td>
+                    <td>
+                        <div class="grass-green-btn text-light text-center rounded-3 py-1">پرداخت و ادامه سفارش 
+                        </div>
+                    </td>
+                    <td>
+                        <i class="bi bi-eye-fill table-eye"></i>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>

@@ -56,7 +56,7 @@ document.addEventListener("DOMContentLoaded", function () {
                                         <span>تومان</span>
                                     </td>
                                     <td>
-                                        <div class="grass-green-btn text-black text-center rounded-3 py-1">پرداخت و ادامه سفارش 
+                                        <div class="grass-green-btn text-light text-center rounded-3 py-1">پرداخت و ادامه سفارش 
                                         </div>
                                     </td>
                                     <td>
@@ -78,7 +78,7 @@ document.addEventListener("DOMContentLoaded", function () {
                                         <span>تومان</span>
                                     </td>
                                     <td>
-                                        <div class="grass-green-btn text-black text-center rounded-3 py-1">پرداخت و ادامه سفارش 
+                                        <div class="grass-green-btn text-light text-center rounded-3 py-1">پرداخت و ادامه سفارش 
                                         </div>
                                     </td>
                                     <td>

@@ -13,10 +13,6 @@
     font-size: 1.5rem;
 }
 
-.main-profile {
-    
-}
-
 .profile-nav-link {
     color: black;
     text-decoration: none;
@@ -58,31 +54,9 @@
     text-transform: uppercase;
 }
 
-.main-profile-selection {
-    border: 1px solid #F0F4F7;
-    background: #F0F4F7;
-}
 
-/* Add custom styles for active radio button */
-.btn-group-mp input[type="radio"]:checked + label.btn-mp {
-    border-radius: 1rem;
-    background: #FFF;
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.10);
-    color: black; /* Change text color for visibility */
-  }
-  
-  /* Revert the styles for other radio buttons */
-  .btn-group-mp input[type="radio"] + label.btn-mp {
-    background-color: initial; /* Change back to the original background color */
-    color: #000; /* Revert to the original text color */
-  }
 
-  .btn-mp {
-    font-size: 1rem;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
-  }
+
 
   .latest-orders-text{
     font-size: 0.75rem;
@@ -122,8 +96,5 @@
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.10);
   }
 
-  .latest-saved-btn, .latest-saved-btn:hover {
-    color: #7C6950;
-    border-radius: 8px;
-    border: 1px solid #7C6950;
-  }
+
+

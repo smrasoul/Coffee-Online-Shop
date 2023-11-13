@@ -143,178 +143,213 @@
                         </div>
                     </div>
                 </div>
-                <div class="d-flex align-items-center main-profile-selection rounded-3 mt-3 mx-lg-4 px-lg-3 py-lg-2">
-                    <div dir="ltr" class="btn-group btn-group-mp" role="group"
-                        aria-label="Basic radio toggle button group">
-
-                        <input type="radio" class="btn-check latest-saved-btn" name="btnradio" id="btnradio2" autocomplete="off">
-                        <label class="btn btn-mp mx-lg-3 sort-text" for="btnradio2">آخرین محصولات ذخیره شده</label>
-
-                        <input type="radio" class="btn-check latest-orders-btn" name="btnradio" id="btnradio1" autocomplete="off" checked>
-                        <label class="btn btn-mp mx-lg-3 sort-text" for="btnradio1">آخرین سفارش‌ها</label>
-                    </div>
-                </div>
-                <div class="main-profile-selection-div">
-                    <div class="table-responsive-lg mt-3 mx-lg-4 px-lg-3 py-lg-2">
-                        <table class="table latest-orders-text">
-                            <thead>
-                                <tr>
-                                    <th scope="col">
-                                        <div class="latest-orders-title">شماره سفارش</div>
-                                    </th>
-                                    <th scope="col">
-                                        <div class="latest-orders-title">محصول</div>
-                                    </th>
-                                    <th scope="col">
-                                        <div class="latest-orders-title">تاریخ</div>
-                                    </th>
-                                    <th scope="col">
-                                        <div class="latest-orders-title">قیمت کل</div>
-                                    </th>
-                                    <th scope="col">
-                                        <div class="latest-orders-title">وضعیت</div>
-                                    </th>
-                                    <th>
-                
-                                    </th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr>
-                                    <th scope="row">۲۸۷۱۷۸</th>
-                                    <td>
-                                        <img src="./images/Rectangle-28.png" width="30px">
-                                        <img src="./images/Rectangle-28.png" width="30px">
-                                        <img src="./images/Rectangle-28.png" width="30px">
-                                        <img src="./images/Rectangle-28.png" width="30px">
-                                        <img src="./images/Rectangle-28.png" width="30px">
-                                    </td>
-                                    <td>۱۴۰۰/۰۶/۰۴ - ۰۱:۱۵:۴۸</td>
-                                    <td>
-                                        <span>۸۴۸٬۹۹۰ </span>
-                                        <span>تومان</span>
-                                    </td>
-                                    <td>
-                                        <div class="bg-success-subtle text-success text-center rounded-3 py-1">ارسال شده
+                <div>
+                    <ul class="nav nav-pills mb-3 profile-selection rounded-3 mt-3 mx-lg-4 px-lg-3 py-lg-2" id="pills-tab" role="tablist">
+                        <li class="nav-" role="presentation">
+                          <button class="active selection-btn btn btn-secondary py-2" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">آخرین سفارش‌ها</button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                          <button class="selection-btn btn btn-secondary py-2" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">آخرین محصولات ذخیره شده</button>
+                        </li>
+                    </ul>
+                    <div class="tab-content" id="pills-tabContent">
+                        <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab" tabindex="0">
+                            <table class="table latest-orders-text">
+                                <thead>
+                                    <tr>
+                                        <th scope="col">
+                                            <div class="latest-orders-title">شماره سفارش</div>
+                                        </th>
+                                        <th scope="col">
+                                            <div class="latest-orders-title">محصول</div>
+                                        </th>
+                                        <th scope="col">
+                                            <div class="latest-orders-title">تاریخ</div>
+                                        </th>
+                                        <th scope="col">
+                                            <div class="latest-orders-title">قیمت کل</div>
+                                        </th>
+                                        <th scope="col">
+                                            <div class="latest-orders-title">وضعیت</div>
+                                        </th>
+                                        <th>
+                    
+                                        </th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <th scope="row">۲۸۷۱۷۸</th>
+                                        <td>
+                                            <img src="./images/Rectangle-28.png" width="30px">
+                                            <img src="./images/Rectangle-28.png" width="30px">
+                                            <img src="./images/Rectangle-28.png" width="30px">
+                                            <img src="./images/Rectangle-28.png" width="30px">
+                                            <img src="./images/Rectangle-28.png" width="30px">
+                                        </td>
+                                        <td>۱۴۰۰/۰۶/۰۴ - ۰۱:۱۵:۴۸</td>
+                                        <td>
+                                            <span>۸۴۸٬۹۹۰ </span>
+                                            <span>تومان</span>
+                                        </td>
+                                        <td>
+                                            <div class="bg-success-subtle text-success text-center rounded-3 py-1">ارسال شده
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <i class="bi bi-eye-fill table-eye"></i>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">۲۸۷۱۷۸</th>
+                                        <td>
+                                            <img src="./images/Rectangle-28.png" width="30px">
+                                            <img src="./images/Rectangle-28.png" width="30px">
+                                            <img src="./images/Rectangle-28.png" width="30px">
+                                            <img src="./images/Rectangle-28.png" width="30px">
+                                            <img src="./images/Rectangle-28.png" width="30px">
+                                        </td>
+                                        <td>۱۴۰۰/۰۶/۰۴ - ۰۱:۱۵:۴۸</td>
+                                        <td>
+                                            <span>۸۴۸٬۹۹۰ </span>
+                                            <span>تومان</span>
+                                        </td>
+                                        <td>
+                                            <div class="bg-warning text-danger-emphasis text-center rounded-3 py-1">پرداخت ناموفق
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <i class="bi bi-eye-fill table-eye"></i>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">۲۸۷۱۷۸</th>
+                                        <td>
+                                            <img src="./images/Rectangle-28.png" width="30px">
+                                            <img src="./images/Rectangle-28.png" width="30px">
+                                            <img src="./images/Rectangle-28.png" width="30px">
+                                            <img src="./images/Rectangle-28.png" width="30px">
+                                            <img src="./images/Rectangle-28.png" width="30px">
+                                        </td>
+                                        <td>۱۴۰۰/۰۶/۰۴ - ۰۱:۱۵:۴۸</td>
+                                        <td>
+                                            <span>۸۴۸٬۹۹۰ </span>
+                                            <span>تومان</span>
+                                        </td>
+                                        <td>
+                                            <div class="bg-warning-subtle text-primary-emphasis text-center rounded-3 py-1">در حال
+                                                آماده‌سازی
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <i class="bi bi-eye-fill table-eye"></i>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">۲۸۷۱۷۸</th>
+                                        <td>
+                                            <img src="./images/Rectangle-28.png" width="30px">
+                                            <img src="./images/Rectangle-28.png" width="30px">
+                                            <img src="./images/Rectangle-28.png" width="30px">
+                                            <img src="./images/Rectangle-28.png" width="30px">
+                                            <img src="./images/Rectangle-28.png" width="30px">
+                                        </td>
+                                        <td>۱۴۰۰/۰۶/۰۴ - ۰۱:۱۵:۴۸</td>
+                                        <td>
+                                            <span>۸۴۸٬۹۹۰ </span>
+                                            <span>تومان</span>
+                                        </td>
+                                        <td>
+                                            <div class="bg-success-subtle text-success text-center rounded-3 py-1">ارسال شده
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <i class="bi bi-eye-fill table-eye"></i>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">۲۸۷۱۷۸</th>
+                                        <td>
+                                            <img src="./images/Rectangle-28.png" width="30px">
+                                            <img src="./images/Rectangle-28.png" width="30px">
+                                            <img src="./images/Rectangle-28.png" width="30px">
+                                            <img src="./images/Rectangle-28.png" width="30px">
+                                            <img src="./images/Rectangle-28.png" width="30px">
+                                        </td>
+                                        <td>۱۴۰۰/۰۶/۰۴ - ۰۱:۱۵:۴۸</td>
+                                        <td>
+                                            <span>۸۴۸٬۹۹۰ </span>
+                                            <span>تومان</span>
+                                        </td>
+                                        <td>
+                                            <div class="bg-success-subtle text-success text-center rounded-3 py-1">ارسال شده
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <i class="bi bi-eye-fill table-eye"></i>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">۲۸۷۱۷۸</th>
+                                        <td>
+                                            <img src="./images/Rectangle-28.png" width="30px">
+                                            <img src="./images/Rectangle-28.png" width="30px">
+                                            <img src="./images/Rectangle-28.png" width="30px">
+                                            <img src="./images/Rectangle-28.png" width="30px">
+                                            <img src="./images/Rectangle-28.png" width="30px">
+                                        </td>
+                                        <td>۱۴۰۰/۰۶/۰۴ - ۰۱:۱۵:۴۸</td>
+                                        <td>
+                                            <span>۸۴۸٬۹۹۰ </span>
+                                            <span>تومان</span>
+                                        </td>
+                                        <td>
+                                            <div class="bg-success-subtle text-success text-center rounded-3 py-1">ارسال شده
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <i class="bi bi-eye-fill table-eye"></i>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab" tabindex="0">
+                            <div class="card latest-saved-card m-lg-3 p-lg-3">
+                                <div class="row g-0">
+                                    <div class="col-lg-3">
+                                        <img src="./images/Rectangle-28.png" class="img-fluid rounded-start">
+                                    </div>
+                                    <div class="col-lg-9">
+                                        <div class="card-body">
+                                            <div class="card-title latest-saved-card-title d-flex justify-content-between">
+                                                <span>کتاب فیزیک دوازدهم تجربی فارآزمون انتشارات فار چاپ ۱۴۰۲</span>
+                                            </div>
+                                            <div dir="ltr" class="card-text d-flex justify-content-start align-items-center pt-5 mt-5">
+                                                <div class="latest-saved-delete px-1">
+                                                    <i class="bi bi-trash3 profile-icon"></i>
+                                                </div>
+                                                <div class="ms-lg-3">
+                                                    <button type="button" class="btn latest-saved-btn d-flex align-items-center">
+                                                        <span class="pe-2">مشاهده محصول</span>
+                                                        <i class="bi bi-eye-fill profile-icon"></i>
+                                                    </button>
+                                                </div>
+                                                <div class="px-3 d-flex cart-card-price">
+                                                    <div class="p pe-1">تومان</div>
+                                                    <div class="p">۱۶۹٬۵۰۰</div>
+                                                </div>
+                                                <div dir="rtl" class="d-flex cart-card-profit ps-3">
+                                                    <div class="p pe-1">سود شما از خرید:</div>
+                                                    <div class="p pe-1">۶۹٬۵۰۰ </div>
+                                                    <div class="p pe-1">تومان</div>
+                                                </div>
+                                            </div>
                                         </div>
-                                    </td>
-                                    <td>
-                                        <i class="bi bi-eye-fill table-eye"></i>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <th scope="row">۲۸۷۱۷۸</th>
-                                    <td>
-                                        <img src="./images/Rectangle-28.png" width="30px">
-                                        <img src="./images/Rectangle-28.png" width="30px">
-                                        <img src="./images/Rectangle-28.png" width="30px">
-                                        <img src="./images/Rectangle-28.png" width="30px">
-                                        <img src="./images/Rectangle-28.png" width="30px">
-                                    </td>
-                                    <td>۱۴۰۰/۰۶/۰۴ - ۰۱:۱۵:۴۸</td>
-                                    <td>
-                                        <span>۸۴۸٬۹۹۰ </span>
-                                        <span>تومان</span>
-                                    </td>
-                                    <td>
-                                        <div class="bg-warning text-danger-emphasis text-center rounded-3 py-1">پرداخت ناموفق
-                                        </div>
-                                    </td>
-                                    <td>
-                                        <i class="bi bi-eye-fill table-eye"></i>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <th scope="row">۲۸۷۱۷۸</th>
-                                    <td>
-                                        <img src="./images/Rectangle-28.png" width="30px">
-                                        <img src="./images/Rectangle-28.png" width="30px">
-                                        <img src="./images/Rectangle-28.png" width="30px">
-                                        <img src="./images/Rectangle-28.png" width="30px">
-                                        <img src="./images/Rectangle-28.png" width="30px">
-                                    </td>
-                                    <td>۱۴۰۰/۰۶/۰۴ - ۰۱:۱۵:۴۸</td>
-                                    <td>
-                                        <span>۸۴۸٬۹۹۰ </span>
-                                        <span>تومان</span>
-                                    </td>
-                                    <td>
-                                        <div class="bg-warning-subtle text-primary-emphasis text-center rounded-3 py-1">در حال
-                                            آماده‌سازی
-                                        </div>
-                                    </td>
-                                    <td>
-                                        <i class="bi bi-eye-fill table-eye"></i>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <th scope="row">۲۸۷۱۷۸</th>
-                                    <td>
-                                        <img src="./images/Rectangle-28.png" width="30px">
-                                        <img src="./images/Rectangle-28.png" width="30px">
-                                        <img src="./images/Rectangle-28.png" width="30px">
-                                        <img src="./images/Rectangle-28.png" width="30px">
-                                        <img src="./images/Rectangle-28.png" width="30px">
-                                    </td>
-                                    <td>۱۴۰۰/۰۶/۰۴ - ۰۱:۱۵:۴۸</td>
-                                    <td>
-                                        <span>۸۴۸٬۹۹۰ </span>
-                                        <span>تومان</span>
-                                    </td>
-                                    <td>
-                                        <div class="bg-success-subtle text-success text-center rounded-3 py-1">ارسال شده
-                                        </div>
-                                    </td>
-                                    <td>
-                                        <i class="bi bi-eye-fill table-eye"></i>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <th scope="row">۲۸۷۱۷۸</th>
-                                    <td>
-                                        <img src="./images/Rectangle-28.png" width="30px">
-                                        <img src="./images/Rectangle-28.png" width="30px">
-                                        <img src="./images/Rectangle-28.png" width="30px">
-                                        <img src="./images/Rectangle-28.png" width="30px">
-                                        <img src="./images/Rectangle-28.png" width="30px">
-                                    </td>
-                                    <td>۱۴۰۰/۰۶/۰۴ - ۰۱:۱۵:۴۸</td>
-                                    <td>
-                                        <span>۸۴۸٬۹۹۰ </span>
-                                        <span>تومان</span>
-                                    </td>
-                                    <td>
-                                        <div class="bg-success-subtle text-success text-center rounded-3 py-1">ارسال شده
-                                        </div>
-                                    </td>
-                                    <td>
-                                        <i class="bi bi-eye-fill table-eye"></i>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <th scope="row">۲۸۷۱۷۸</th>
-                                    <td>
-                                        <img src="./images/Rectangle-28.png" width="30px">
-                                        <img src="./images/Rectangle-28.png" width="30px">
-                                        <img src="./images/Rectangle-28.png" width="30px">
-                                        <img src="./images/Rectangle-28.png" width="30px">
-                                        <img src="./images/Rectangle-28.png" width="30px">
-                                    </td>
-                                    <td>۱۴۰۰/۰۶/۰۴ - ۰۱:۱۵:۴۸</td>
-                                    <td>
-                                        <span>۸۴۸٬۹۹۰ </span>
-                                        <span>تومان</span>
-                                    </td>
-                                    <td>
-                                        <div class="bg-success-subtle text-success text-center rounded-3 py-1">ارسال شده
-                                        </div>
-                                    </td>
-                                    <td>
-                                        <i class="bi bi-eye-fill table-eye"></i>
-                                    </td>
-                                </tr>
-                            </tbody>
-                        </table>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
                 <div class="row mt-3 px-lg-1 py-lg-2">
@@ -433,7 +468,6 @@
         </footer>
     </div>
     <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="./scripts/main-profile.js"></script>
 </body>
 
 </html>
