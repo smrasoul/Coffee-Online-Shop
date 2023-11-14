@@ -55,7 +55,11 @@
 }
 
 
-
+.latest-saved-btn, .latest-saved-btn:hover {
+  border-radius: 0.5rem;
+  border: 1px solid #7C6950;
+  color: #7C6950;
+}
 
 
   .latest-orders-text{
