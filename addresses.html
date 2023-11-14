@@ -105,7 +105,8 @@
                         <span><i class="bi bi-calendar-week-fill profile-icon me-2 ms-3"></i></span>
                         <span>تاریخچه اعتبار</span>
                     </a>
-                    <a href="change-password.html" class="profile-nav-link account-info d-flex mt-4 mb-5 border-bottom pb-5">
+                    <a href="change-password.html"
+                        class="profile-nav-link account-info d-flex mt-4 mb-5 border-bottom pb-5">
                         <span><i class="bi bi-lock-fill profile-icon me-2 ms-3"></i></span>
                         <span>تغییر رمزعبور</span>
                     </a>
@@ -117,19 +118,80 @@
             </div>
             <div class="col-lg-9">
                 <div class="me-lg-3 px-lg-3 py-lg-2">
-                    <div class="addresses-title-text d-flex justify-content-between border-bottom border-secondary-emphasis pb-2">
+                    <div
+                        class="addresses-title-text d-flex justify-content-between border-bottom border-secondary-emphasis pb-2">
                         <div>آدرس‌های من</div>
-                        <a href="#" class="edit-user-account-information d-flex align-items-center">
+                        <!-- Button trigger modal -->
+                        <button type="button" class="btn edit-user-account-information d-flex align-items-center"
+                            data-bs-toggle="modal" data-bs-target="#staticBackdrop">
                             <span><i class="bi bi-person-fill-gear profile-icon"></i></span>
                             <span>ثبت آدرس جدید</span>
-                        </a>
+                        </button>
+
+                        <!-- Modal -->
+                        <div dir="ltr" class="modal fade" id="staticBackdrop" data-bs-backdrop="static"
+                            data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel"
+                            aria-hidden="true">
+                            <div class="modal-dialog modal-lg">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h1 class="modal-title fs-5" id="staticBackdropLabel">ثبت آدرس جدید</h1>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                            aria-label="Close"></button>
+                                    </div>
+                                    <div dir="rtl" class="modal-body">
+                                        <div class="mt-3 mb-5 user-info-field">
+                                            <label for="modal-name-input"
+                                                class="user-info-label form-label">آدرس:</label>
+                                            <input type="text" id="modal-name-input"
+                                                class="user-info-input form-control"
+                                                placeholder="آدرس جدید را وارد کنید...">
+                                        </div>
+                                        <div class="mt-5 mb-5 user-info-field">
+                                            <label for="modal-address-input" class="user-info-label form-label">تحویل
+                                                گیرنده:</label>
+                                            <input type="text" id="modal-address-input"
+                                                class="user-info-input form-control"
+                                                placeholder="نام تحویل گیرنده را وارد کنید...">
+                                        </div>
+                                        <div class="mt-5 mb-5 user-info-field">
+                                            <label for="modal-phone-input" class="user-info-label form-label">شماره
+                                                تلفن:</label>
+                                            <input type="text" id="modal-phone-input"
+                                                class="user-info-input form-control"
+                                                placeholder="شماره تلفن را وارد کنید...">
+                                        </div>
+                                        <div class="mt-5 mb-5 user-info-field">
+                                            <label for="modal-mobile-input" class="user-info-label form-label">شماره
+                                                موبایل:</label>
+                                            <input type="text" id="modal-mobile-input"
+                                                class="user-info-input form-control"
+                                                placeholder="شماره موبایل را وارد کنید...">
+                                        </div>
+                                        <div class="mt-5 mb-3 user-info-field">
+                                            <label for="modal-mobile-input" class="user-info-label form-label">کد
+                                                پستی:</label>
+                                            <input type="text" id="modal-mobile-input"
+                                                class="user-info-input form-control"
+                                                placeholder="کد پستی را وارد کنید...">
+                                        </div>
+                                    </div>
+                                    <div dir="rtl" class="modal-footer">
+                                        <button type="button" class="btn save-password-btn">ذخیره</button>
+                                        <button type="button" class="btn btn-secondary"
+                                            data-bs-dismiss="modal">انصراف</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                     <div class="row my-5 pb-4 border-bottom border-secondary-emphasis">
                         <div class="col-lg-10 pe-lg-5 addresses-text mb-4">
                             <div>
                                 <span><i class="bi bi-geo-alt-fill profile-icon"></i></span>
                                 <span>آدرس:</span>
-                                <span>گیلان، رشت، بلوار معلم، جنب استانداری، کوچه گلها، ساختمان اهورا، طبقه سوم، واحد ۸</span>
+                                <span>گیلان، رشت، بلوار معلم، جنب استانداری، کوچه گلها، ساختمان اهورا، طبقه سوم، واحد
+                                    ۸</span>
                             </div>
                             <div>
                                 <span><i class="bi bi-person-fill profile-icon"></i></span>
@@ -154,8 +216,71 @@
                         </div>
                         <div class="col-lg-2 pe-lg-5 d-flex align-items-end">
                             <div class="d-flex">
-                                <div class="address-button px-2 pt-1"><i class="bi bi-pencil-square"></i></div>
-                                <div class="address-button me-1 px-2 pt-1"><i class="bi bi-trash3"></i></div> 
+
+
+                                <!-- Button trigger modal -->
+                                <button type="button" class="btn address-button px-2 pt-1" data-bs-toggle="modal"
+                                    data-bs-target="#staticBackdrop2">
+                                    <i class="bi bi-pencil-square"></i>
+                                </button>
+                                <div class="address-button me-1 px-2 pt-1"><i class="bi bi-trash3"></i></div>
+
+                                <!-- Modal -->
+                                <div dir="ltr" class="modal fade" id="staticBackdrop2" data-bs-backdrop="static"
+                                    data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel"
+                                    aria-hidden="true">
+                                    <div class="modal-dialog modal-lg">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h1 class="modal-title fs-5" id="staticBackdropLabel">ثبت آدرس جدید</h1>
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                    aria-label="Close"></button>
+                                            </div>
+                                            <div dir="rtl" class="modal-body">
+                                                <div class="mt-3 mb-5 user-info-field">
+                                                    <label for="modal-name-input"
+                                                        class="user-info-label form-label">آدرس:</label>
+                                                    <input type="text" id="modal-name-input"
+                                                        class="user-info-input form-control"
+                                                        value="گیلان، رشت، بلوار معلم، جنب استانداری، کوچه گلها، ساختمان اهورا، طبقه سوم، واحد ۸">
+                                                </div>
+                                                <div class="mt-5 mb-5 user-info-field">
+                                                    <label for="modal-address-input"
+                                                        class="user-info-label form-label">تحویل
+                                                        گیرنده:</label>
+                                                    <input type="text" id="modal-address-input"
+                                                        class="user-info-input form-control" value="آران دیباه">
+                                                </div>
+                                                <div class="mt-5 mb-5 user-info-field">
+                                                    <label for="modal-phone-input"
+                                                        class="user-info-label form-label">شماره
+                                                        تلفن:</label>
+                                                    <input type="text" id="modal-phone-input"
+                                                        class="user-info-input form-control" value="۰۹۳۳۹۲۳۵۶۴۱">
+                                                </div>
+                                                <div class="mt-5 mb-5 user-info-field">
+                                                    <label for="modal-mobile-input"
+                                                        class="user-info-label form-label">شماره
+                                                        موبایل:</label>
+                                                    <input type="text" id="modal-mobile-input"
+                                                        class="user-info-input form-control" value="۰۱۳-۲۱۷۲۷۸۹۱">
+                                                </div>
+                                                <div class="mt-5 mb-3 user-info-field">
+                                                    <label for="modal-mobile-input"
+                                                        class="user-info-label form-label">کد
+                                                        پستی:</label>
+                                                    <input type="text" id="modal-mobile-input"
+                                                        class="user-info-input form-control" value="۵۱۵۵۵-۷۲۷۹۱">
+                                                </div>
+                                            </div>
+                                            <div dir="rtl" class="modal-footer">
+                                                <button type="button" class="btn save-password-btn">ذخیره</button>
+                                                <button type="button" class="btn btn-secondary"
+                                                    data-bs-dismiss="modal">انصراف</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -164,7 +289,8 @@
                             <div>
                                 <span><i class="bi bi-geo-alt-fill profile-icon"></i></span>
                                 <span>آدرس:</span>
-                                <span>گیلان، رشت، بلوار معلم، جنب استانداری، کوچه گلها، ساختمان اهورا، طبقه سوم، واحد ۸</span>
+                                <span>گیلان، رشت، بلوار معلم، جنب استانداری، کوچه گلها، ساختمان اهورا، طبقه سوم، واحد
+                                    ۸</span>
                             </div>
                             <div>
                                 <span><i class="bi bi-person-fill profile-icon"></i></span>
@@ -189,8 +315,69 @@
                         </div>
                         <div class="col-lg-2 pe-lg-5 d-flex align-items-end">
                             <div class="d-flex">
-                                <div class="address-button px-2 pt-1"><i class="bi bi-pencil-square"></i></div>
-                                <div class="address-button me-1 px-2 pt-1"><i class="bi bi-trash3"></i></div> 
+                                <!-- Button trigger modal -->
+                                <button type="button" class="btn address-button px-2 pt-1" data-bs-toggle="modal"
+                                    data-bs-target="#staticBackdrop2">
+                                    <i class="bi bi-pencil-square"></i>
+                                </button>
+                                <div class="address-button me-1 px-2 pt-1"><i class="bi bi-trash3"></i></div>
+
+                                <!-- Modal -->
+                                <div dir="ltr" class="modal fade" id="staticBackdrop2" data-bs-backdrop="static"
+                                    data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel"
+                                    aria-hidden="true">
+                                    <div class="modal-dialog modal-lg">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h1 class="modal-title fs-5" id="staticBackdropLabel">ثبت آدرس جدید</h1>
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                    aria-label="Close"></button>
+                                            </div>
+                                            <div dir="rtl" class="modal-body">
+                                                <div class="mt-3 mb-5 user-info-field">
+                                                    <label for="modal-name-input"
+                                                        class="user-info-label form-label">آدرس:</label>
+                                                    <input type="text" id="modal-name-input"
+                                                        class="user-info-input form-control"
+                                                        value="گیلان، رشت، بلوار معلم، جنب استانداری، کوچه گلها، ساختمان اهورا، طبقه سوم، واحد ۸">
+                                                </div>
+                                                <div class="mt-5 mb-5 user-info-field">
+                                                    <label for="modal-address-input"
+                                                        class="user-info-label form-label">تحویل
+                                                        گیرنده:</label>
+                                                    <input type="text" id="modal-address-input"
+                                                        class="user-info-input form-control" value="آران دیباه">
+                                                </div>
+                                                <div class="mt-5 mb-5 user-info-field">
+                                                    <label for="modal-phone-input"
+                                                        class="user-info-label form-label">شماره
+                                                        تلفن:</label>
+                                                    <input type="text" id="modal-phone-input"
+                                                        class="user-info-input form-control" value="۰۹۳۳۹۲۳۵۶۴۱">
+                                                </div>
+                                                <div class="mt-5 mb-5 user-info-field">
+                                                    <label for="modal-mobile-input"
+                                                        class="user-info-label form-label">شماره
+                                                        موبایل:</label>
+                                                    <input type="text" id="modal-mobile-input"
+                                                        class="user-info-input form-control" value="۰۱۳-۲۱۷۲۷۸۹۱">
+                                                </div>
+                                                <div class="mt-5 mb-3 user-info-field">
+                                                    <label for="modal-mobile-input"
+                                                        class="user-info-label form-label">کد
+                                                        پستی:</label>
+                                                    <input type="text" id="modal-mobile-input"
+                                                        class="user-info-input form-control" value="۵۱۵۵۵-۷۲۷۹۱">
+                                                </div>
+                                            </div>
+                                            <div dir="rtl" class="modal-footer">
+                                                <button type="button" class="btn save-password-btn">ذخیره</button>
+                                                <button type="button" class="btn btn-secondary"
+                                                    data-bs-dismiss="modal">انصراف</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
