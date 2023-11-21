@@ -75,16 +75,22 @@
       <div class="col-lg-3">
         <div class="d-flex flex-column filters-section">
           <div class="filters-box mb-lg-3 pe-lg-1 ps-lg-3 pt-lg-3 pb-lg-2">
-            <label for="priceRange" class="form-label filters-title pb-lg-5">محدوده قیمت</label>
-            <input type="range" class="form-range" min="0" max="68000000" id="priceRange">
-            <div class="price-range-text d-flex justify-content-between py-lg-2">
-              <div>
-                <span>0</span>
-                <span>تومان</span>
+
+            <div class="form-label filters-title pb-lg-5">محدوده قیمت</div>
+            <div dir="ltr" class="range_container">
+              <div class="sliders_control">
+                <input id="toSlider" type="range" value="68000000" min="0" max="68000000"/>
+                <input id="fromSlider" type="range" value="0" min="0" max="68000000"/>    
               </div>
-              <div>
-                <span>68000000</span>
-                <span>تومان</span>
+              <div class="price-range-text d-flex justify-content-between py-lg-2">
+                <div dir="ltr" class="hstack">
+                  <div class="form_control_container__time me-1">تومان</div>
+                  <input class="form_control_container__time__input" type="number" id="fromInput" value="0" min="0" max="680000"/>
+                </div>
+                <div dir="ltr" class="hstack">
+                  <div class="form_control_container__time me-1">تومان</div>
+                  <input class="form_control_container__time__input" type="number" id="toInput" value="68000000" min="0" max="6800000"/>
+                </div>
               </div>
             </div>
           </div>
@@ -597,6 +603,7 @@
   </div>
 
   <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="../scripts/dual-range-slider.js"></script>
 </body>
 
 </html>
